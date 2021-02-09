@@ -1,0 +1,126 @@
+@brightOrange: #fc6602;
+@black: #333;
+@greyishBrown: #555555;
+@pastelOrange: #FFE6C7;
+@white: #f3f3f3;
+
+body {
+  font-family: 'Cairo', sans-serif;
+
+  &.rtl {
+    direction: rtl;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-sm {
+    padding: 0 30px;
+  }
+}
+
+header {
+  .navbar {
+    background: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .navbar-brand {
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .toggle-button {
+      border: none;
+      outline: none;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.page-message {
+  margin-bottom: 50px;
+
+  .separator {
+    height: 50px;
+  }
+
+  .bag {
+    background-color: @pastelOrange;
+    padding: 40px;
+    max-width: 180px;
+    height: 180px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+    }
+  }
+
+  h3 {
+    color: @brightOrange;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .order-track {
+    color: @black;
+    border-radius: 25px;
+    border: 1px solid @black;
+    padding: 10px 15px;
+    display: block;
+    max-width: 220px;
+    margin: 0 auto;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.order-details {
+  .main-title {
+    font-weight: bold;
+  }
+
+  .orders-details-box {
+    background: @white;
+    padding: 20px 20px 0;
+    border-radius: 10px 10px 0 0;
+
+    .secondary-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 7px 0;
+    }
+
+    .name {
+      color: #C1C1C1;
+      margin: 7px 0;
+    }
+
+    .price {
+      color: @black;
+      margin: 7px 0;
+    }
+  }
+
+  .orders-details-total {
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    background: @greyishBrown;
+    color: #fff;
+
+    .result-text {
+
+    }
+  }
+}
