@@ -107,3 +107,14 @@ header .navbar .toggle-button:focus {
   background-color: #FFE5C6;
   color: #fc6602;
 }
+footer {
+  background-color: #EDFAEB;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+footer .footer-top-bg {
+  margin-top: -20px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
