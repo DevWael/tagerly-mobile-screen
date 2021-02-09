@@ -63,12 +63,15 @@ header .navbar .toggle-button:focus {
   text-decoration: none;
   font-weight: bold;
 }
+.order-details {
+  margin-bottom: 15px;
+}
 .order-details .main-title {
   font-weight: bold;
 }
 .order-details .orders-details-box {
   background: #f3f3f3;
-  padding: 20px 20px 0;
+  padding: 20px;
   border-radius: 10px 10px 0 0;
 }
 .order-details .orders-details-box .secondary-title {
@@ -89,4 +92,18 @@ header .navbar .toggle-button:focus {
   border-radius: 0 0 10px 10px;
   background: #555555;
   color: #fff;
+}
+.additional-details {
+  margin-bottom: 15px;
+}
+.additional-details .additional-details-box {
+  background-color: #F9F9F9;
+  padding: 30px 20px;
+  color: #333;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.additional-details .additional-details-box.orange-theme {
+  background-color: #FFE5C6;
+  color: #fc6602;
 }

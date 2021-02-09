@@ -3,6 +3,7 @@
 @greyishBrown: #555555;
 @pastelOrange: #FFE6C7;
 @white: #f3f3f3;
+@footerBg: #EDFAEB;
 
 body {
   font-family: 'Cairo', sans-serif;
@@ -87,13 +88,15 @@ header {
 }
 
 .order-details {
+  margin-bottom: 15px;
+
   .main-title {
     font-weight: bold;
   }
 
   .orders-details-box {
     background: @white;
-    padding: 20px 20px 0;
+    padding: 20px;
     border-radius: 10px 10px 0 0;
 
     .secondary-title {
@@ -121,6 +124,27 @@ header {
 
     .result-text {
 
+    }
+  }
+}
+
+.additional-details {
+  margin-bottom: 15px;
+
+  .additional-details-box {
+    background-color: #F9F9F9;
+    padding: 30px 20px;
+    color: @black;
+    border-radius: 15px;
+    font-weight: bold;
+
+    .detail-text {
+
+    }
+
+    &.orange-theme {
+      background-color: #FFE5C6;
+      color: @brightOrange;
     }
   }
 }
