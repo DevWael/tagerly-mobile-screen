@@ -107,6 +107,25 @@ header .navbar .toggle-button:focus {
   background-color: #FFE5C6;
   color: #fc6602;
 }
+.order-additional-details .info .main {
+  color: #9E9E9E;
+}
+.order-additional-details .info .main:before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #9E9E9E;
+  margin-left: 5px;
+}
+.order-additional-details .info .text-value {
+  padding-right: 10px !important;
+}
+.order-additional-details .info .text-value,
+.order-additional-details .info .main {
+  padding: 7px 0;
+}
 footer {
   background-color: #EDFAEB;
   padding-bottom: 40px;

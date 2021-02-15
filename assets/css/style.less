@@ -149,6 +149,33 @@ header {
   }
 }
 
+.order-additional-details {
+  .info {
+    .main {
+      color: #9E9E9E;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: #9E9E9E;
+        margin-left: 5px;
+      }
+    }
+
+    .text-value {
+      padding-right: 10px !important;
+    }
+
+    .text-value,
+    .main {
+      padding: 7px 0;
+    }
+  }
+}
+
 footer {
   background-color: @footerBg;
   padding-bottom: 40px;
