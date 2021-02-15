@@ -3,6 +3,7 @@
 @greyishBrown: #555555;
 @pastelOrange: #FFE6C7;
 @white: #f3f3f3;
+@lightText: #9E9E9E;
 @footerBg: #EDFAEB;
 
 body {
@@ -11,6 +12,18 @@ body {
   &.rtl {
     direction: rtl;
   }
+}
+
+.dark-text {
+  color: @black;
+}
+
+.light-text {
+  color: @lightText;
+}
+
+.theme-box-shadow{
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.07);
 }
 
 @media (max-width: 768px) {
@@ -150,6 +163,7 @@ header {
 }
 
 .order-additional-details {
+  margin-bottom: 30px;
   .info {
     .main {
       color: #9E9E9E;
@@ -160,7 +174,7 @@ header {
         width: 6px;
         height: 6px;
         border-radius: 6px;
-        background-color: #9E9E9E;
+        background-color: @lightText;
         margin-left: 5px;
       }
     }
@@ -171,8 +185,15 @@ header {
 
     .text-value,
     .main {
-      padding: 7px 0;
+      padding: 5px 0;
     }
+  }
+}
+
+.customer-details{
+  h3{
+    font-weight: bold;
+    font-size: 18px;
   }
 }
 
