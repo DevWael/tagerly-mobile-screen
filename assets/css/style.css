@@ -153,3 +153,44 @@ footer .footer-top-bg {
   height: auto;
   display: block;
 }
+footer .logo {
+  margin-bottom: 15px;
+}
+footer .logo img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+}
+footer .contact-details h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+footer .contact-details .footer-criteria {
+  margin-bottom: 15px;
+}
+footer .contact-details .footer-criteria i {
+  color: #333;
+  margin-left: 10px;
+  font-size: 19px;
+}
+footer .contact-details .footer-criteria.location i {
+  font-size: 24px;
+}
+footer .social-links {
+  margin-bottom: 15px;
+}
+footer .social-links a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  color: #333;
+  font-size: 18px;
+  margin-left: 10px;
+}
+footer .help a {
+  text-decoration: none;
+  outline: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
