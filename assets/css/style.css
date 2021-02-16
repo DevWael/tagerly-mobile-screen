@@ -18,6 +18,32 @@ body.rtl {
     padding: 0 30px;
   }
 }
+header .cart-button {
+  display: none;
+  position: relative;
+}
+header .cart-button i {
+  color: #333;
+  font-size: 21px;
+}
+header .cart-button .circle {
+  background-color: #fc6602;
+  color: #f3f3f3;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -5px;
+  right: -5px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 17px;
+  width: 17px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  header .cart-button {
+    display: inline-block;
+  }
+}
 header .navbar {
   background: #F8F8F8;
   padding-top: 20px;

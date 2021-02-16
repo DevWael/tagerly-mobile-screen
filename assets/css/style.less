@@ -5,7 +5,7 @@
 @white: #f3f3f3;
 @lightText: #9E9E9E;
 @footerBg: #EDFAEB;
-
+@mobile: ~"only screen and (max-width: 768px)";
 body {
   font-family: 'Cairo', sans-serif;
 
@@ -33,6 +33,37 @@ body {
 }
 
 header {
+
+  .cart-button {
+    display: none;
+    position: relative;
+
+    i {
+      color: @black;
+      font-size: 21px;
+    }
+
+    .circle {
+      background-color: @brightOrange;
+      color: @white;
+      position: absolute;
+      border-radius: 50%;
+      bottom: -5px;
+      right: -5px;
+      font-size: 12px;
+      line-height: 17px;
+      height: 17px;
+      width: 17px;
+      text-align: center;
+    }
+  }
+
+  @media @mobile {
+    .cart-button {
+      display: inline-block;
+    }
+  }
+
   .navbar {
     background: #F8F8F8;
     padding-top: 20px;
@@ -247,6 +278,7 @@ footer {
 
   .social-links {
     margin-bottom: 15px;
+
     a {
       display: inline-block;
       text-decoration: none;
@@ -261,8 +293,8 @@ footer {
     }
   }
 
-  .help{
-    a{
+  .help {
+    a {
       text-decoration: none;
       outline: none;
       color: @black;
