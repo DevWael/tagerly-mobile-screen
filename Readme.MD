@@ -6,5 +6,5 @@ then run `index.html` in your browser and open developer tools and select mobile
 ![Screenshot](screenshot/screenshot.png?raw=true "Screenshot")
 
 
-####_DISCLAIMER:_ <br/>
+#### _DISCLAIMER:_ <br/>
 _ALL FILES IN THIS REPO ARE FOR TESTING PURPOSES ONLY AND NOT INTENTED TO BE USED IN ANY PRODUCTION ENVIRONMENT._
